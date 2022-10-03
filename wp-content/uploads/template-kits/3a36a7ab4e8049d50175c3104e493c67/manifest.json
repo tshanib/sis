@@ -1,0 +1,923 @@
+{
+    "manifest_version": "1.0.20",
+    "title": "Moska",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.png",
+            "source": "templates\/global.json",
+            "preview_url": "http:\/\/moska.soojourneys.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.png",
+            "source": "templates\/about-us.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.png",
+            "source": "templates\/blog.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.png",
+            "source": "templates\/single-post.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Products",
+            "screenshot": "screenshots\/products.png",
+            "source": "templates\/products.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=elementor-products-archive-383",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive\/shop_page"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: Shop Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Product",
+            "screenshot": "screenshots\/single-product.png",
+            "source": "templates\/single-product.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.png",
+            "source": "templates\/testimonials.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing Plan",
+            "screenshot": "screenshots\/pricing-plan.png",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Service",
+            "screenshot": "screenshots\/service.png",
+            "source": "templates\/service.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.png",
+            "source": "templates\/contact-us.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Frequent Asked Question",
+            "screenshot": "screenshots\/frequent-asked-question.png",
+            "source": "templates\/frequent-asked-question.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/template-kit\/frequent-asked-question\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Login",
+            "screenshot": "screenshots\/login.png",
+            "source": "templates\/login.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=login",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Newsletter",
+            "screenshot": "screenshots\/newsletter.png",
+            "source": "templates\/newsletter.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=newsletter",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=footer-2",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=header-2",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.png",
+            "source": "templates\/404.json",
+            "preview_url": "http:\/\/moska.soojourneys.com\/?elementor_library=404-2",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.3.8",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.4.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.3.6",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "5.6.0",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        }
+    ],
+    "images": [
+        {
+            "filename": "shopping-gold-fashion-detail-ring-woman-feminine-accessories-style-earings_t20_8gnoAV.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/shopping-gold-fashion-detail-ring-woman-feminine-accessories-style-earings_t20_8gnoAV.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 92292,
+            "dimensions": [
+                683,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/fdae79dc-00b5-4823-9d1e-28beb78739d4"
+        },
+        {
+            "filename": "jewelry_t20_QK4Lnb.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/jewelry_t20_QK4Lnb.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 134505,
+            "dimensions": [
+                772,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/717d5282-6def-4d8b-bafc-8fc14835c823"
+        },
+        {
+            "filename": "imgonline-com-ua-CompressToSize-B4eTTf6wpcR-e1630397519758.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/imgonline-com-ua-CompressToSize-B4eTTf6wpcR-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 145378,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/onU-LlrPs8I"
+        },
+        {
+            "filename": "joeyy-lee-hXhMzWysB8s-unsplash_2_11zon-min-e1630397560510.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/joeyy-lee-hXhMzWysB8s-unsplash_2_11zon-min-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 118708,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/hXhMzWysB8s"
+        },
+        {
+            "filename": "serafima-lazarenko-GNu7slSbdR0-unsplash-min-1-e1630397594665.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/serafima-lazarenko-GNu7slSbdR0-unsplash-min-1-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 152235,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/GNu7slSbdR0"
+        },
+        {
+            "filename": "mariana-beltran-ub9fS2bNSU8-unsplash-min-1.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/mariana-beltran-ub9fS2bNSU8-unsplash-min-1-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/newsletter.json",
+                    "name": "Newsletter"
+                }
+            ],
+            "filesize": 192532,
+            "dimensions": [
+                1539,
+                2308
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/ub9fS2bNSU8"
+        },
+        {
+            "filename": "file-22-815x1024-1.png",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/file-22-815x1024-1-800x1005.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 161952,
+            "dimensions": [
+                815,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/aesthetic-creative-fashion-lineart-BADGTLM"
+        },
+        {
+            "filename": "photos-olit-t5csjkIqc8M-unsplash-min_7_11zon-min.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/photos-olit-t5csjkIqc8M-unsplash-min_7_11zon-min-800x789.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 229105,
+            "dimensions": [
+                2252,
+                2222
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/8s7Gt8m4diE"
+        },
+        {
+            "filename": "cheerful-happy-pretty-woman-looking-camera-LAHYUE4-min-1_4_11zon-min.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/cheerful-happy-pretty-woman-looking-camera-LAHYUE4-min-1_4_11zon-min-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 207820,
+            "dimensions": [
+                2304,
+                1536
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-happy-pretty-woman-looking-camera-LAHYUE4"
+        },
+        {
+            "filename": "cheerful-beautiful-young-female-with-long-blonde-h-Z4E9R6H-min-1_5_11zon-min.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/cheerful-beautiful-young-female-with-long-blonde-h-Z4E9R6H-min-1_5_11zon-min-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 248810,
+            "dimensions": [
+                2660,
+                1773
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-beautiful-young-female-with-long-blonde-h-Z4E9R6H"
+        },
+        {
+            "filename": "file-07-1024x982-1.png",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/file-07-1024x982-1-800x767.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 149011,
+            "dimensions": [
+                1024,
+                982
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/aesthetic-creative-fashion-lineart-BADGTLM"
+        },
+        {
+            "filename": "tessa-wilson-ECr_8nuXpBA-unsplash-min_8_11zon-min.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/tessa-wilson-ECr_8nuXpBA-unsplash-min_8_11zon-min-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 230088,
+            "dimensions": [
+                2246,
+                2246
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/ECr_8nuXpBA"
+        },
+        {
+            "filename": "1lexy-lammerink-khmkI4x3tL0-unsplash-1.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/1lexy-lammerink-khmkI4x3tL0-unsplash-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 230784,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/khmkI4x3tL0"
+        },
+        {
+            "filename": "angelica-echeverry-mI82mfLu538-unsplash1-1.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/angelica-echeverry-mI82mfLu538-unsplash1-1-800x803.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 261633,
+            "dimensions": [
+                2392,
+                2401
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/mI82mfLu538"
+        },
+        {
+            "filename": "1anna-elizabeth-zTxp7jb5osM-unsplash.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/1anna-elizabeth-zTxp7jb5osM-unsplash-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 242187,
+            "dimensions": [
+                1912,
+                2868
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/zTxp7jb5osM"
+        },
+        {
+            "filename": "file-13-572x1024-1.png",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/file-13-572x1024-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 76894,
+            "dimensions": [
+                572,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/aesthetic-creative-fashion-lineart-BADGTLM"
+        },
+        {
+            "filename": "cheerful-elegant-young-brunette-lady-wearing-sungl-4YWDWCB-min-1_3_11zon-min.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/cheerful-elegant-young-brunette-lady-wearing-sungl-4YWDWCB-min-1_3_11zon-min-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 242335,
+            "dimensions": [
+                1960,
+                1307
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-elegant-young-brunette-lady-wearing-sungl-4YWDWCB"
+        },
+        {
+            "filename": "file-20-740x1024-1.png",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/file-20-740x1024-1.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 179736,
+            "dimensions": [
+                740,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/aesthetic-creative-fashion-lineart-BADGTLM"
+        },
+        {
+            "filename": "Abstract-element_03.png",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/Abstract-element_03-800x530.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 50386,
+            "dimensions": [
+                2999,
+                1985
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/abstract-flower-set-svg-FGJZRXA"
+        },
+        {
+            "filename": "different-goldsmiths-tools-on-the-jewelry-workplac-EKRSPX2-min-1.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/different-goldsmiths-tools-on-the-jewelry-workplac-EKRSPX2-min-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 234928,
+            "dimensions": [
+                2482,
+                2482
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/different-goldsmiths-tools-on-the-jewelry-workplac-EKRSPX2"
+        },
+        {
+            "filename": "flatlay-jewelry-XW2EU6U-min.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/flatlay-jewelry-XW2EU6U-min-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 241245,
+            "dimensions": [
+                2864,
+                1910
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/flatlay-jewelry-XW2EU6U"
+        },
+        {
+            "filename": "12.png",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/12-800x1017.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 9777,
+            "dimensions": [
+                811,
+                1031
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/pastel-abstract-shapes-5-E9UAQVH"
+        },
+        {
+            "filename": "1nataliya-melnychuk-oO0JAOJhquk-unsplash.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/1nataliya-melnychuk-oO0JAOJhquk-unsplash-800x1068.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 219926,
+            "dimensions": [
+                2200,
+                2937
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oO0JAOJhquk"
+        },
+        {
+            "filename": "1nataliya-melnychuk-5ngCICAXiH0-unsplash-e1630397634758.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/1nataliya-melnychuk-5ngCICAXiH0-unsplash-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 136661,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/5ngCICAXiH0"
+        },
+        {
+            "filename": "1lexy-lammerink-khmkI4x3tL0-unsplash.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/1lexy-lammerink-khmkI4x3tL0-unsplash-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 255311,
+            "dimensions": [
+                2000,
+                2501
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/khmkI4x3tL0"
+        },
+        {
+            "filename": "1lexy-lammerink-LV5gOg3c1Kk-unsplash.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/1lexy-lammerink-LV5gOg3c1Kk-unsplash-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 228356,
+            "dimensions": [
+                1600,
+                2000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/LV5gOg3c1Kk"
+        },
+        {
+            "filename": "angelica-echeverry-mI82mfLu538-unsplash1.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/angelica-echeverry-mI82mfLu538-unsplash1-800x950.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 239218,
+            "dimensions": [
+                2400,
+                2851
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/mI82mfLu538"
+        },
+        {
+            "filename": "mathilde-langevin-f1FkoppimsA-unsplash-1.jpg",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/07\/mathilde-langevin-f1FkoppimsA-unsplash-1-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/login.json",
+                    "name": "Login"
+                }
+            ],
+            "filesize": 214979,
+            "dimensions": [
+                1574,
+                2361
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/f1FkoppimsA"
+        },
+        {
+            "filename": "404.png",
+            "thumbnail_url": "http:\/\/moska.soojourneys.com\/wp-content\/uploads\/2021\/08\/404-800x364.png",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 105465,
+            "dimensions": [
+                1100,
+                500
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}
